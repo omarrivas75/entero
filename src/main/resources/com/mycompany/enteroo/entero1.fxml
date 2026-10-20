@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/26" fx:controller="com.mycompany.enteroo.Entero1Controller">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="30.0" layoutY="51.0" prefHeight="38.0" prefWidth="108.0" text="Ingrese un numero" />
+            <Label layoutX="34.0" layoutY="141.0" text="Cantidad de cifras " />
+            <Label layoutX="34.0" layoutY="171.0" text="Suma de cifras impares" />
+            <Label layoutX="33.0" layoutY="201.0" text="Suma de cifras pares" />
+            <Label layoutX="34.0" layoutY="259.0" text="Cifra mayor" />
+            <Label layoutX="36.0" layoutY="230.0" text="Suma total de cifras" />
+            <Label layoutX="34.0" layoutY="295.0" text="Cifra menor" />
+            <TextField fx:id="txtCantidad" layoutX="175.0" layoutY="137.0" />
+            <TextField fx:id="txtImpares" layoutX="175.0" layoutY="167.0" />
+            <TextField fx:id="txtPares" layoutX="175.0" layoutY="197.0" />
+            <TextField fx:id="txtSuma" layoutX="175.0" layoutY="226.0" />
+            <TextField fx:id="txtMayor" layoutX="175.0" layoutY="255.0" />
+            <TextField fx:id="txtMenor" layoutX="175.0" layoutY="291.0" />
+            <Button fx:id="btnAnalizar" layoutX="370.0" layoutY="59.0" mnemonicParsing="false" onAction="#Analizar" text="Analizar" />
+            <Button fx:id="btnLimpiar" layoutX="464.0" layoutY="59.0" mnemonicParsing="false" onAction="#Limpiar" text="Limpiar" />
+            <TextArea fx:id="txtDivisores" layoutX="348.0" layoutY="139.0" prefHeight="200.0" prefWidth="200.0" />
+            <Label layoutX="348.0" layoutY="99.0" prefHeight="38.0" prefWidth="81.0" text="Divisores" />
+            <TextField fx:id="txtnumero" layoutX="138.0" layoutY="58.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
